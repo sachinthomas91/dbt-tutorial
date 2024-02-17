@@ -1,0 +1,10 @@
+[0m23:28:49.925707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E7C8B130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E6D0DAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E6D0D8D0>]}
+
+
+============================== 23:28:49.930706 | b28d26c9-b69b-4663-9fa7-dd3d3230c187 ==============================
+[0m23:28:49.930706 [info ] [MainThread]: Running with dbt=1.7.7
+[0m23:28:49.931212 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\sachi\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init jaffle_shop', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:28:49.933226 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m23:28:49.935222 [debug] [MainThread]: Command `dbt init` succeeded at 23:28:49.934223 after 0.08 seconds
+[0m23:28:49.935222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E7C8B130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E6D0D900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291E6D0DB70>]}
+[0m23:28:49.936232 [debug] [MainThread]: Flushing usage events
